@@ -739,7 +739,7 @@ select {
 }
 
 .email-bt:hover {
-  border: 2px solid #214a2b;
+  border: 2px solid #ffffff;
 }
 
 .call-us-img {
@@ -748,6 +748,7 @@ select {
   left: 12px;
   transform: translateY(-50%);
   width: 38px;
+  z-index: 100;
 }
 
 .email-bt .text-call {
@@ -759,6 +760,7 @@ select {
 }
 
 .email-bt .text-call span {
+  display: none;
   text-align: center;
   color: #214a2b;
   opacity: 0;
@@ -773,16 +775,16 @@ select {
   font-family: 'montserrat', Arial, Helvetica, sans-serif;
 }
 
-.email-bt .text-call:hover span {
+/*.email-bt .text-call:hover span {
   opacity: 1;
   font-size: 11px;
-}
+}*/
 
-.email-bt:hover i {
+/*.email-bt:hover i {
   display: none;
-}
+}*/
 
-.email-bt:hover {
+/*.email-bt:hover {
   z-index: 1;
   background: #fff;
   transition: .3s;
@@ -792,7 +794,7 @@ select {
   color: #38a3fd;
   font-size: 40px;
   transition: .3s;
-}
+}*/
 
 .email-bt i {
   color: #fff;
@@ -1179,4 +1181,3 @@ select {
     max-height: 180px;
   }
 }
-
